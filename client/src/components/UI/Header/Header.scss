@@ -1,0 +1,39 @@
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  box-sizing: border-box;
+  .logo {
+    display: flex;
+    align-items: center;
+    width: 124px;
+    margin-left: 12px;
+    img {
+      width: 100%;
+    }
+    .help-text {
+      display: inline-block;
+      font-size: 22px;
+      line-height: 24px;
+      padding-left: 4px;
+      position: relative;
+      top: -1.5px;
+      vertical-align: middle;
+      color: #5f6368;
+    }
+  }
+  .action-btn {
+    display: flex;
+    align-items: center;
+    .icon-block {
+      font-size: 20px;
+      padding: 10px;
+      color: #5f6368;
+    }
+  }
+}
+
+.MuiSvgIcon-root {
+  color: #5f6368;
+}

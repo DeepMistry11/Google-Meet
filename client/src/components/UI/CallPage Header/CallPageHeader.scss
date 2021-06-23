@@ -1,0 +1,18 @@
+.frame-header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  top: 25px !important;
+  right: 25px !important;
+}
+
+.icon-bg {
+  background-color: #1a6bd5 !important;
+  padding: 2px !important;
+}
+
+.menu-icon {
+  font-size: 25px !important;
+  color: white !important;
+}
